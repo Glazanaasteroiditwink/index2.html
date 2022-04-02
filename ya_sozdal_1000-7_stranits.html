@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dacument</title>
+</head>
+<style>
+.popup {
+    width: 400px;
+    height: 200px;
+    display: inline-block;
+    font-size: 2.25em;
+    padding: 1em;
+    color: white;
+    position: relative;
+    border-radius: 5px;
+    background-color: #071a52;
+}
+.popup:hover::after {
+    content: 'БЫСТРО';
+    position: absolute;
+    padding: 1em;
+    top: 50%;
+    left: 25%;
+    border-radius: 5px;
+    white-space: nowarp;
+    background-color: #a7ff83;
+    color: #071a52;
+}
+</style>
+<body>
+    <div class="popup"><h3>ПЕРЕВЕДИ МНЕ 999999999999999999$</h3></div>
+</body>
+</html>
