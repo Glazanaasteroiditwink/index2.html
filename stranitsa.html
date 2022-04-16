@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+        .container {
+            display: flex;
+            height: 100vh;
+        }
+        .aside {
+            flex-basis: 20%;
+            background-color: darkcyan;
+        }
+        .header {
+            flex-basis: 20%;
+            background-color: darkred;
+        }
+        .section {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+        .column-left {
+            height: 100%;
+            flex-basis: 100%;
+            background-color: blue;
+        }
+        .column-right {
+            height: 100%;
+            flex-basis: 100%;
+            background-color: green;
+        }
+        .content {
+            height: 100%;
+            width: 100%;
+            display: flex;
+        }
+    </style>
+<body>
+    <div class="container">
+        <div class="aside">
+            <h1>Меню</h1>
+        </div>
+        <div class="section">
+            <div class="header">
+                <h1>Заголовок</h1>
+            </div>
+            <div class="content">
+                <div class="column-left">Напиши сюда текст</div>
+                <div class="column-right">Напиши сюда текст</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

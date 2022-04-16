@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+        .container:hover {
+            box-shadow: 1px 1px 0px 0px red,
+                        2px 2px 0px 0px red,
+                        3px 3px 0px 0px red,
+                        4px 4px 0px 0px red,
+                        5px 5px 0px 0px red,
+                        6px 6px 0px 0px red,
+                        7px 7px 0px 0px red;
+            transform: translate(-4px, -4px);
+        }
+        .container {
+            width: 300px;
+            height: 400px;
+            background-color: red;
+            position: relative;
+            display:flex;
+            flex-direction: column;
+            transition: all ease 0.25s;
+        }
+
+        .item-1 {
+            height: 100%;
+            background-color: brown;
+            margin: 5px;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+        }
+        .item-2 {
+            display: flex;
+            justify-content: space-around;
+            flex-basis: 20%;
+        }
+        .info {
+            display: flex;
+            width: 70%;
+            margin: .4em;
+            background-color: darkgreen;
+            align-items: center;
+            justify-content: center;
+        }
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .text {
+            color: black;
+        }
+</style>
+<body>
+    <div class="container">
+        <div class="item-1">
+            <h1>Описание sayta</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum consequuntur tempore dicta aut, sequi at beatae optio, minima dolorum praesentium cumque voluptatibus laborum laboriosam repudiandae deleniti mollitia numquam itaque! At?</p>
+
+        </div>
+        <div class="item-2">
+            <a class="info" href="index.html">
+                <span class="text">
+                    Войти!
+                </span>
+            </a>
+                <a class="info" href="https://www.youtube.com/watch?v=qq1FSkySW1w">
+                    <span class="text">
+                        Не войти!
+                    </span>
+                </a>
+          </div>
+    </div>
+</body>
+</html>

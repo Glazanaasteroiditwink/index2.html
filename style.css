@@ -1,0 +1,68 @@
+html, body {
+    margin: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    color: white;
+}
+.container {
+    display: flex;
+}
+.container-column {
+    display: flex;
+    flex-direction: column;
+}
+.vh100 {
+    height: 100vh;
+}
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+.flex-around {
+    justify-content: space-around;
+    align-items: center;
+}
+.top-section {
+    background-image: url('ssss.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.top-section > h1 {
+    white-space: nowrap;
+    padding: 8px;
+    font-size: 6em;
+    color: yellow;
+    font-family: sant-serif;
+}
+.top-section > .container {
+    width: 80%;
+    margin: 5%;
+}
+.top-section > .container > .item {
+    color: white;
+    padding: 1em;
+    margin: 1em;
+}
+.top-section > .button {
+    background-color: yellow;
+    color: black;
+    padding: 1.5em 4.5em;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.mid-section {
+    padding: 2em 1em;
+    color: black;
+}
+
+.bottom-section {
+    background-image: url('bottompic.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex-wrap: wrap;
+}
